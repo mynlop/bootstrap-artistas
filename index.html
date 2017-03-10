@@ -5,8 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Artistas Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    
+    <div class="header">
+        <div class="redes d-flex justify-content-center align-self-center">
+            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="" id=""><i class="fa fa-instagram"></i></a>
+        </div>
+        <h1 class="d-flex justify-content-center">Artistas Shop</h1>
+        <nav class="navbar navbar-toggleable navbar-light bg-faded d-flex text-center">
+            <button class="navbar-toggler navbar-toggle-center" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <!--<span class="navbar-toggler-icon"></span>-->
+                <a href="#" class="navbar-brand">Menu</a>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Tickets</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lineup</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a href="" class="dropdown-item">Viernes</a>
+                            <a href="" class="dropdown-item">Sabado</a>
+                            <a href="" class="dropdown-item">Domingo</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Suscribete</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row btn-comprar-boletos d-flex justify-content-center">
+            <button class="btn btn-outline-success " type="submit">Comprar boletos</button>
+        </div>
+        <hr>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+body{
+    font-family: "Bree Serif" , "Helvetica" ;
+}
+/*estilo para las redes del header*/
+.redes{
+    background: #1c3643;
+    color: white;
+}
+.redes a{color: #59b5b1;padding: 10px;}
+/*codigo para el menu de navegacion*/
+.navbar{background: #0a0a0a;}
+.navbar a{color: #59b5b1 !important;}
+.navbar > button{width: 100%;}
+.navbar-toggleable .navbar-nav{width: 100%;}
+/*codigo para el boton de comprar boletos*/
+.btn-comprar-boletos{padding: 20px 0;}
+.btn-comprar-boletos button{padding: 15px;font-size: 1.5em; color: #59b5b1; border-color: #59b5b1;}
+.btn-comprar-boletos button:hover{background-color: #59b5b1; border-color: #59b5b1; cursor: pointer;}
