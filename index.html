@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
+    <!--header del sitio-->
     <div class="header">
         <div class="redes d-flex justify-content-center align-self-center">
             <a href="#"><i class="fa fa-facebook-square"></i></a>
@@ -29,7 +30,7 @@
                         <a href="#" class="nav-link">Tickets</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lineup</a>
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Horarios</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="" class="dropdown-item">Viernes</a>
                             <a href="" class="dropdown-item">Sabado</a>
@@ -50,6 +51,56 @@
         </div>
         <hr>
     </div>
+    <!--termina header-->
+    <!--empieza cartas de horarios-->
+    <div class="horarios container">
+        <h1 class="d-flex justify-content-center">Horarios</h1>
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+            <li class="nav-item">
+                <a href="#viernes" class="nav-link active" data-toggle="tab" role="tab">Viernes</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sabado" class="nav-link" data-toggle="tab" role="tab">Sabado</a>
+            </li>
+            <li class="nav-item">
+                <a href="#domingo" class="nav-link" data-toggle="tab" role="tab">Domingo</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active show fade" id="viernes" role="tabpanel">
+                <div class="tabuladores d-flex justify-content-around justify-content-center flex-wrap">
+                    <img src="imagenes/grupo1.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo2.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo1.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo2.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo1.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo2.jpg" alt="Imagen" width="250" height="200">
+                </div>
+            </div>
+            <div class="tab-pane fade" id="sabado" role="tabpanel">
+                <div class="tabuladores d-flex justify-content-around justify-content-center flex-wrap">
+                    <img src="imagenes/grupo2.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo1.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo2.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo1.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo2.jpg" alt="Imagen" width="250" height="200">
+                </div>
+            </div>
+            <div class="tab-pane fade" id="domingo" role="tabpanel">
+                <div class="tabuladores d-flex justify-content-around justify-content-center flex-wrap">
+                    <img src="imagenes/grupo1.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo2.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo1.jpg" alt="Imagen" width="250" height="200">
+                    <img src="imagenes/grupo2.jpg" alt="Imagen" width="250" height="200">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--termina cartas de horarios-->
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

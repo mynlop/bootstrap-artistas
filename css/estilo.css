@@ -13,6 +13,8 @@ body{
 .navbar > button{width: 100%;}
 .navbar-toggleable .navbar-nav{width: 100%;}
 /*codigo para el boton de comprar boletos*/
-.btn-comprar-boletos{padding: 20px 0;}
+.btn-comprar-boletos{padding: 20px 0; width: 100%;}
 .btn-comprar-boletos button{padding: 15px;font-size: 1.5em; color: #59b5b1; border-color: #59b5b1;}
 .btn-comprar-boletos button:hover{background-color: #59b5b1; border-color: #59b5b1; cursor: pointer;}
+/*estilo de los tabs*/
+.tabuladores img{margin: 10px 0;}
